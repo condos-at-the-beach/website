@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -33,6 +34,11 @@
       $('.slideshow').cycle({
         fx: 'fade' // choose your transition type, ex: fade, scrollUp, shuffle, etc...
       });
+    });
+  </script>
+  <script>
+    $(function () {
+      $("#includeWeather").load("weather.html");
     });
   </script>
 </head>
@@ -73,13 +79,14 @@
           <div align="center" style="padding:15px">
             <h3 style="border-bottom:#999 2px dotted; padding-bottom:5px; text-align:center">Gulf Shores Weather</h3>
 
-    
+            <div id="includeWeather"></div>
           </div>
 
 
           <div align="center" style="padding:15px">
             <h3 style="border-bottom:#999 2px dotted; padding-bottom:5px; text-align:center">Gulf Shores Events</h3>
-            <a target="_blank" rel="nofollow" href="https://www.gulfshores.com/things-to-do/calendar-events/">Calendar of Events</a>
+            <a target="_blank" rel="nofollow" href="https://www.gulfshores.com/things-to-do/calendar-events/">Calendar
+              of Events</a>
           </div>
 
         </td>
