@@ -1,5 +1,5 @@
 body {
-	background: #38b1ff url(img/bg3.jpg) repeat-x top;
+	background: #38b1ff url(/img/bg3.jpg) repeat-x top;
 	text-align: center;
 	font: 12px verdana, arial, sans-serif;
 	color: #74653D;
@@ -19,7 +19,7 @@ font-weight: bold;
 font-family: 'arial narrow', arial, sans-serif;
 height:220px;
 width:240px;
-background-image:url(img/header.jpg);
+background-image:url(/img/header.jpg);
 display:inline-block;
 text-align:center;
 padding-left:10px;
@@ -45,7 +45,7 @@ font-weight: bold;
 font-family: 'arial narrow', arial, sans-serif;
 height:220px;
 width:240px;
-background-image:url (img/bgrn.jpg);
+background-image:url (/img/bgrn.jpg);
 display:inline-block;
 text-align:center;
 padding-left:10px; 
@@ -71,7 +71,7 @@ padding-left:10px;
 font-size:12px;
 font-family:Verdana, Geneva, sans-serif;
 font-weight:600;
-background-image:url(img/menu.jpg);
+background-image:url(/img/menu.jpg);
 width:200px;
 display:block;
 height:23px;
@@ -103,7 +103,7 @@ text-align:left;
 	float:left;
 	margin:10px;
 	padding:10px;
-	background-image:url(img/bgr-logo.jpg);
+	background-image:url(/img/bgr-logo.jpg);
 		}
 
 	
@@ -134,7 +134,7 @@ padding: 9px;
 
 
 #news {
-  background: url(img/news_bg.jpg) repeat-y;
+  background: url(/img/news_bg.jpg) repeat-y;
   padding-left: 37px;
   padding-right: 22px;
   padding-bottom: 3px;
@@ -162,13 +162,13 @@ padding: 9px;
   font-size: 9px;
 }
 #news .hr-dots {
-  background: center url(img/dots.gif) repeat-x;
+  background: center url(/img/dots.gif) repeat-x;
   height: 10px;
 }
 
 
 #corp-img, #indu-img {
-  background: url(img/pic_2.jpg) no-repeat;
+  background: url(/img/pic_2.jpg) no-repeat;
   width: 112px;
   height: 23px;
   float: left;
@@ -179,7 +179,7 @@ padding: 9px;
   font-weight: bold;
 }
 #indu-img {
-  background: url(img/pic_3.jpg) no-repeat;
+  background: url(/img/pic_3.jpg) no-repeat;
 ;
 }
 
